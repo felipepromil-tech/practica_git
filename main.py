@@ -1,6 +1,7 @@
 from functions import *  # Importa funciones necesarias
 from calculos import *    # Importa cálculos necesarios
 
+
 print("Hola mundo")  # Imprime "Hola mundo"
 
 def mostrar_menu():
@@ -8,6 +9,7 @@ def mostrar_menu():
     print("1. Suma")
     print("2. Área del Triángulo")
     print("3. Área del Cuadrado")
+    print("5. area de un circulo")
     print("4. Salida")
     print("--------------------------")
 
@@ -31,7 +33,9 @@ def main():#funcion menu
             # Llama a la función que calcula el área del cuadrado
             resultado3 = cuadrado() # Asegúrate de que cuadrado() retorne un valor
             print(f"El cálculo del área del cuadrado es: {resultado3}")
-        
+        elif opcion == "5":
+            resultado4 = circulo()
+            print(f"El area de un circulo es:{resultado4}")
         elif opcion == "4":
             print("Gracias por su atención")
             break  # Salir del bucle

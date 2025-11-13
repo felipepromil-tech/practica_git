@@ -1,3 +1,5 @@
+import statistics
+
 #calcular la area de el triangulo y el cuadrado
 def triangulo ():#funcion del triangulo
     base = int(input("ingrese una base:"))#int para validar como numero entero y lado del triangulo
@@ -13,6 +15,9 @@ def cuadrado (): # funcion cuadrado
     return area# valor devuelo y reutilizable
 
 
+def circulo ():
+    radio= int(input("ingrese radio al cuadrado:"))
+    return (3.1416 * radio) **2
 
 
 
