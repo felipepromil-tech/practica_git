@@ -1,6 +1,6 @@
 from functions import *  # Importa funciones necesarias
 from calculos import *    # Importa cálculos necesarios
-
+print("practica git 13-11-2025")
 
 print("Hola mundo")  # Imprime "Hola mundo"
 
